@@ -214,3 +214,23 @@ indicates whether a specific HTTP request has been successfully completed. Respo
 - Redirection messages -> 300 - 399
 - Client error responses -> 400 - 499
 - Server error responses -> 500 - 599
+
+# MongoDB
+
+- no-sql document based database
+- strong support for aggregation pipes
+- works on BSON format
+- best for node applications
+
+=> some commands
+  show dbs - show data bases
+  use <db_name>
+  show collections
+  db.coll.find() - we can do queries tp find collection
+  db.users.insert({ }) - inserting this to database
+
+# Mongoose
+
+Schema - Define the structure
+Schema - Model
+Using model we do CRUD operations (create, read, update, delete)
